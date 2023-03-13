@@ -19,8 +19,7 @@
         "s2 s2"
         "s3 s3"
         "s4 s4"
-        "fo fo"
-        "ar ar";
+        "fo fo";
 }
 
 header {
@@ -41,7 +40,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 50px;
+    height: 80px;
 }
 
 #section_1 {
