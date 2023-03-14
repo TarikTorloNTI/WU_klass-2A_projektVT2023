@@ -45,30 +45,53 @@ footer {
 
 #section_1 {
     grid-area: s1;
-    background: #fff6f6;
+    background: rgb(96, 75, 75);
 }
 
 #section_2 {
     grid-area: s2;
-    background: #827171;    
+    background: rgb(96, 75, 75);    
 }
 
 #section_3 {
     grid-area: s3;
-    background: lightpink;
+    background: rgb(96, 75, 75);    
 }
 
 #section_4 {
     grid-area: s4;
-    background: plum;
+    background: rgb(96, 75, 75);    
 }
 
 img {
-    height: 630px;
+    height: 350px;
     width: 630px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
 }
 
+h3 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+#personal_section {
+    display: flex;
+}
+
+.article {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 /*KOD FÖR MEDIA QUIERES OCH HAMBURGERMENY*/
 nav {
