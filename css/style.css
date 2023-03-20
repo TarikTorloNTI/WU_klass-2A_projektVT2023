@@ -1,4 +1,4 @@
-/*ALLMÄN KOD*/
+/* ALLMÄN KOD/KOD FÖR INDEX.HTML */
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 * {
@@ -53,7 +53,7 @@ footer {
     background: rgb(96, 75, 75);    
 }
 
-#section_3 {
+#section_3 {    
     grid-area: s3;
     background: rgb(96, 75, 75);    
 }
@@ -81,19 +81,9 @@ h3 {
     display: flex;
 }
 
-.article {
-    width: 150px;
-    height: 150px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    margin: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
 
-/*KOD FÖR MEDIA QUIERES OCH HAMBURGERMENY*/
+
+/* KOD FÖR MEDIA QUIERES OCH HAMBURGERMENY */
 nav {
     height: 80px;
     background-color: rgb(96, 75, 75);
@@ -201,4 +191,96 @@ nav {
     .nav_active {
         transform: translateY(0px);
     }
+}
+
+
+
+
+/* PERSONAL-SIDAN */
+#personal_section {
+    display: flex;
+}
+
+.article {
+    width: 275px;
+    height: 150px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#article_person1 {
+    background: url("../img/person1.png");
+    background-size: contain;
+    height: 200px;
+}
+
+#article_person2 {
+    background: url("../img/person1.png");
+    background-size: contain;
+    height: 400px;
+    width: 295px;
+}
+
+#article_person3 {
+    background: url("../img/person2.png");
+    background-size: contain;
+    height: 400px;
+    width: 295px;
+}
+
+#article_person4 {
+    background: url("../img/person3.png");   
+    background-size: contain;
+    height: 400px;
+    width: 295px;
+}
+
+#article_person5 {
+    background: url("../img/person4.png");
+    background-size: contain;
+    height: 400px;
+    width: 295px;
+}
+
+
+#article_person6 {
+    background: url("../img/persons/avatar-7e6c3ea471a1ac6911e35c6b3fa46870.jpg"); 
+    background-size: contain;
+}
+
+
+#article_person7 {
+    background: url("../img/persons/avatar-f5570c089ffac9de2094c30ee7f4304d.jpg");   
+    background-size: contain;
+}
+
+h6 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background: transparent;
+}
+
+#personal_text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+a:hover {
+    pointer-events: stroke;
+}
+
+
+button:hover {
+    background-color: black;
 }
