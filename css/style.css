@@ -8,7 +8,6 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
-
 #grid_wrapper {
     display: grid;
     grid-template-columns: minmax(200px, 1fr) 200px;
@@ -25,7 +24,7 @@
 header {
     grid-area: he;
     background: #514242;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +63,7 @@ footer {
 }
 
 img {
-    height: 350px;
+    height: 375px;
     width: 630px;
     border-radius: 5px;
     border-color: white;
@@ -77,9 +76,12 @@ h3 {
     color: white;
 }
 
-#personal_section {
-    display: flex;
+p {
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 
@@ -123,7 +125,7 @@ nav {
 
 #nav-links a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.95rem;
     letter-spacing: 0.1875rem;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -191,12 +193,44 @@ nav {
     .nav_active {
         transform: translateY(0px);
     }
+
+    img {
+        height: 375px;
+        width: 630px;
+        border-radius: 5px;
+        border-color: white;
+        border-style: solid;
+    }
 }
 
 
 
 
-/* PERSONAL-SIDAN */
+/* OM OSS SIDAN */
+#om_oss_section1 {
+    grid-area: s1;
+    background: rgb(96, 75, 75);
+}
+
+#om_oss_section2 {
+    grid-area: s2;
+    background: rgb(96, 75, 75);
+}
+
+#om_oss_section3 {
+    grid-area: s3;
+    background: rgb(96, 75, 75);
+}
+
+#om_oss_section4 {
+    grid-area: s4;
+    background: rgb(96, 75, 75);
+}
+
+
+
+
+/* PERSONAL SIDAN */
 #personal_section {
     display: flex;
 }
@@ -211,13 +245,14 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background: rgb(96, 75, 75);
 }
-
 
 #article_person1 {
     background: url("../img/person1.png");
     background-size: contain;
     height: 200px;
+    background: black;
 }
 
 #article_person2 {
@@ -248,24 +283,13 @@ nav {
     width: 295px;
 }
 
-
-#article_person6 {
-    background: url("../img/persons/avatar-7e6c3ea471a1ac6911e35c6b3fa46870.jpg"); 
-    background-size: contain;
-}
-
-
-#article_person7 {
-    background: url("../img/persons/avatar-f5570c089ffac9de2094c30ee7f4304d.jpg");   
-    background-size: contain;
-}
-
 h6 {
     align-items: center;
     justify-content: center;
     display: flex;
     color: rgb(0, 0, 0);
     background: transparent;
+    font-size: larger;
 }
 
 #personal_text {
@@ -274,13 +298,37 @@ h6 {
     display: flex;
     color: rgb(0, 0, 0);
     background-color: transparent;
+    font-size: 20px;
 }
 
 a:hover {
     pointer-events: stroke;
 }
 
-
 button:hover {
     background-color: black;
+}
+
+
+
+
+/* BOKA TID SIDAN */
+#boka_tid_section1 {
+    grid-area: s1;
+    background: rgb(96, 75, 75);
+}
+
+#boka_tid_section2 {
+    grid-area: s2;
+    background: rgb(96, 75, 75);
+}
+
+#boka_tid_section3 {
+    grid-area: s3;
+    background: rgb(96, 75, 75);
+}
+
+#boka_tid_section4 {
+    grid-area: s4;
+    background: rgb(96, 75, 75);
 }
