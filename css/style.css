@@ -63,8 +63,8 @@ footer {
 }
 
 img {
-    height: 375px;
-    width: 630px;
+    height: 290px;
+    width: 400px;
     border-radius: 5px;
     border-color: white;
     border-style: solid;
@@ -195,7 +195,7 @@ nav {
     }
 
     img {
-        height: 375px;
+        height: 335px;
         width: 630px;
         border-radius: 5px;
         border-color: white;
