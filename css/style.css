@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: minmax(200px, 1fr) 200px;
     grid-template-rows: 80px 400px 400px 400px 400px 80px;
-    grid-template-areas: 
+    grid-template-areas:
         "he na"
         "s1 s1"
         "s2 s2"
@@ -24,11 +24,14 @@
 header {
     grid-area: he;
     background: #514242;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 footer {
@@ -40,6 +43,9 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 #section_1 {
@@ -49,23 +55,23 @@ footer {
 
 #section_2 {
     grid-area: s2;
-    background: rgb(96, 75, 75);    
+    background: rgb(96, 75, 75);
 }
 
-#section_3 {    
+#section_3 {
     grid-area: s3;
-    background: rgb(96, 75, 75);    
+    background: rgb(96, 75, 75);
 }
 
 #section_4 {
     grid-area: s4;
-    background: rgb(96, 75, 75);    
+    background: rgb(96, 75, 75);
 }
 
 img {
     height: 290px;
     width: 400px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: white;
     border-style: solid;
 }
@@ -94,6 +100,9 @@ nav {
     align-items: center;
     grid-area: na;
     font-family: 'Luckiest Guy', cursive;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 #burger div {
@@ -117,10 +126,13 @@ nav {
     top: -500px;
     right: 0px;
     transition: all, 0.5s;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 #nav-links li {
-    list-style: none;   
+    list-style: none;
 }
 
 #nav-links a {
@@ -167,7 +179,7 @@ nav {
     #grid_wrapper {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 80px 80px 400px 400px 80px;
-        grid-template-areas: 
+        grid-template-areas:
             "na na"
             "he he"
             "s1 s2"
@@ -189,7 +201,7 @@ nav {
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .nav_active {
         transform: translateY(0px);
     }
@@ -197,7 +209,20 @@ nav {
     img {
         height: 335px;
         width: 630px;
-        border-radius: 5px;
+        border-radius: 10px;
+        border-color: white;
+        border-style: solid;
+    }
+
+    header {
+        grid-area: he;
+        background: #514242;
+        font-size: 1.25rem;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
         border-color: white;
         border-style: solid;
     }
@@ -231,8 +256,44 @@ nav {
 
 
 /* PERSONAL SIDAN */
-#personal_section {
+#personal_section1 {
     display: flex;
+    background: rgb(96, 75, 75);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+#personal_section2 {
+    display: flex;
+    background: rgb(96, 75, 75);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+#personal_section3 {
+    display: flex;
+    background: rgb(96, 75, 75);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+#personal_section4 {
+    display: flex;
+    background: rgb(96, 75, 75);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
 }
 
 .article {
@@ -245,7 +306,9 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background: rgb(96, 75, 75);
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 #article_person1 {
@@ -258,36 +321,45 @@ nav {
 #article_person2 {
     background: url("../img/person1.png");
     background-size: contain;
-    height: 400px;
-    width: 295px;
+    height: 350px;
+    width: 500px;
 }
 
 #article_person3 {
     background: url("../img/person2.png");
     background-size: contain;
-    height: 400px;
-    width: 295px;
+    height: 350px;
+    width: 500px;
 }
 
 #article_person4 {
-    background: url("../img/person3.png");   
+    background: url("../img/person3.png");
     background-size: contain;
-    height: 400px;
-    width: 295px;
+    height: 350px;
+    width: 500px;
 }
 
 #article_person5 {
     background: url("../img/person4.png");
     background-size: contain;
-    height: 400px;
-    width: 295px;
+    height: 350px;
+    width: 500px;
+}
+
+h5 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-size: large;
 }
 
 h6 {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(79, 58, 58);
     background: transparent;
     font-size: larger;
 }
@@ -296,7 +368,7 @@ h6 {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(79, 58, 58);
     background-color: transparent;
     font-size: 20px;
 }
