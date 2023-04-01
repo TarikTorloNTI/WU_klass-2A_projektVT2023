@@ -1,4 +1,4 @@
-/* ALLMÄN KOD/KOD FÖR INDEX.HTML */
+/* ALLMÄN KOD OCH KOD FÖR INDEX.HTML */
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 * {
@@ -364,11 +364,20 @@ h6 {
     font-size: larger;
 }
 
-#personal_text {
+#personal_text1 {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(79, 58, 58);
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#personal_text2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     font-size: 20px;
 }
